@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'bottom_bar_column.dart';
 import 'info_text.dart';
 import 'responsive.dart';
+import 'dart:js' as js;
 
 class BottomBar extends StatelessWidget {
   @override
@@ -17,24 +18,54 @@ class BottomBar extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    BottomBarColumn(
-                      heading: 'ABOUT',
-                      s1: 'Contact Us',
-                      s2: 'About Us',
-                      s3: 'Careers',
+                    SizedBox(
+                      height: 56,
+                      child: Center(
+                        child: InkWell(
+                          child: Text('Privacy Policy',
+                            style: TextStyle(
+                                color: Colors.white
+                            ),
+                          ),
+                          onTap: () {
+                            js.context.callMethod('open', ['https://jumpr-0923.web.app/privacy.html']);
+                          },
+                        ),
+                      ),
                     ),
-                    BottomBarColumn(
-                      heading: 'HELP',
-                      s1: 'Payment',
-                      s2: 'Cancellation',
-                      s3: 'FAQ',
+                    SizedBox(
+                      height: 56,
+                      child: Center(
+                        child: InkWell(
+                          child: Text('Terms & Conditions',
+                            style: TextStyle(
+                                color: Colors.white
+                            ),
+                          ),
+                          onTap: () {
+                            js.context.callMethod('open', ['https://jumpr-0923.web.app/TermsOfService.html']);
+                          },
+                        ),
+                      ),
                     ),
-                    BottomBarColumn(
-                      heading: 'SOCIAL',
-                      s1: 'Twitter',
-                      s2: 'Facebook',
-                      s3: 'YouTube',
-                    ),
+                    // BottomBarColumn(
+                    //   heading: 'ABOUT',
+                    //   s1: 'Contact Us',
+                    //   s2: 'About Us',
+                    //   s3: 'Careers',
+                    // ),
+                    // BottomBarColumn(
+                    //   heading: 'HELP',
+                    //   s1: 'Payment',
+                    //   s2: 'Cancellation',
+                    //   s3: 'FAQ',
+                    // ),
+                    // BottomBarColumn(
+                    //   heading: 'SOCIAL',
+                    //   s1: 'Twitter',
+                    //   s2: 'Facebook',
+                    //   s3: 'YouTube',
+                    // ),
                   ],
                 ),
                 Container(

@@ -64,19 +64,19 @@ class _HomePageState extends State<HomePage> {
                   elevation: 0,
                   centerTitle: true,
                   actions: [
-                    IconButton(
-                      icon: Icon(Icons.brightness_6),
-                      splashColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onPressed: () {
-                        EasyDynamicTheme.of(context).changeTheme();
-                      },
-                    ),
+                    // IconButton(
+                    //   icon: Icon(Icons.brightness_6),
+                    //   splashColor: Colors.transparent,
+                    //   highlightColor: Colors.transparent,
+                    //   onPressed: () {
+                    //     EasyDynamicTheme.of(context).changeTheme();
+                    //   },
+                    // ),
                   ],
-                  title: Text(
-                    'Jumpr Page',
+                  title: const Text(
+                    'Jumpr',
                     style: TextStyle(
-                      color: Colors.blueGrey[100],
+                      color: Colors.green,
                       fontSize: 20,
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w400,
@@ -109,7 +109,6 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 children: [
                   container,
-                  SizedBox(height: screenSize.height / 10),
                   BottomBar(),
                 ],
               ),
