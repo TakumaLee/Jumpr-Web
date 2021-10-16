@@ -6,7 +6,7 @@ const RESOURCES = {
   "version.json": "ad3acdcf707c7057b1202e27069e3c4c",
 "favicon.png": "d79a216711968ae40a44a758984a0550",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "3fca0ccae0a72a6415773b833eb19e38",
+"assets/NOTICES": "dc45414496dd24f3e7fb4ef512e05245",
 "assets/assets/images/google-play-badge.png": "db9b21a1c41f3dcd9731e1e7acfdbb57",
 "assets/assets/images/cover.jpeg": "9f553741c05d11f18d192d811b40360f",
 "assets/assets/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
@@ -33,10 +33,10 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "a94c2c4689e87a1dcbe3c4326e387eea",
 "icons/Icon-maskable-192.png": "ae654af54c9a0b732a07fa5f506e97c4",
 "icons/Icon-512.png": "a94c2c4689e87a1dcbe3c4326e387eea",
-"main.dart.js": "69de57eb59f78d2af6620b989307add2",
+"main.dart.js": "3c0e924ed4563f65ecfad246b84980e2",
 "manifest.json": "81ac2f5da37afb9e6da1ef659c8ea0fa",
-"index.html": "4913d512d70d3506b8597a39251e721f",
-"/": "4913d512d70d3506b8597a39251e721f"
+"index.html": "0d70533f4da5de5ee0fc77b735858ed9",
+"/": "0d70533f4da5de5ee0fc77b735858ed9"
 };
 
 // The application shell files that are downloaded before a service worker can
