@@ -1,6 +1,6 @@
 {
-    "name": "jumpr_web",
-    "short_name": "jumpr_web",
+    "name": "Jumpr-First Virtual Jump Rope App",
+    "short_name": "jumpr",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
